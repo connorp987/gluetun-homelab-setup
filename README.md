@@ -1,44 +1,13 @@
 # 🎬 Gluetun Homelab Media Stack
 
-> **A complete, automated, and secure media management system running entirely through VPN**
+> **Automated media management with VPN protection - add shows/movies, they download and organize automatically**
 
-## 🌟 Why This Setup is Excellent
+## Why This Stack?
 
-This Docker Compose stack combines the best tools in the media automation ecosystem into a single, cohesive system that "just works." Here's what makes it special:
-
-### 🔐 **Security First**
-- **All download traffic routes through VPN** (Gluetun + Private Internet Access)
-- **Built-in kill switch** - if VPN drops, all traffic stops automatically
-- **No exposed ports** - everything runs behind VPN or local network
-- **Usenet over torrents** - encrypted, no peer-to-peer exposure, no upload requirements
-
-### 🤖 **Fully Automated**
-1. Add a TV show or movie to your watchlist
-2. System automatically searches indexers for best quality
-3. Downloads through encrypted Usenet (via VPN)
-4. Organizes and renames files perfectly
-5. Jellyfin detects new media instantly
-6. Watch from any device with a beautiful Netflix-like interface
-
-**No manual downloading. No file management. No hassle.**
-
-### ⚡ **Fast & Efficient**
-- **Usenet is 10-50x faster than torrents** - max out your connection
-- **GPU-accelerated transcoding** (Nvidia NVENC) - smooth 4K playback on any device
-- **Shared network stack** - all containers communicate at localhost speed
-- **Minimal resource usage** - runs great on a Raspberry Pi or old laptop
-
-### 🎯 **Production-Ready**
-- **LinuxServer.io images** - maintained, updated, and trusted by thousands
-- **Persistent storage** - survives container restarts and updates
-- **Easy backup** - just copy the config folders
-- **Scalable** - add more services easily (Lidarr for music, Readarr for books, etc.)
-
-### 🎨 **Beautiful Dashboard**
-- **Homepage** provides a unified dashboard for all services
-- **One-click access** to any service
-- **Real-time stats** and monitoring
-- **Customizable** - make it your own
+- **🔐 Secure** - All downloads through VPN with kill switch
+- **🤖 Automated** - Add media → auto-downloads → auto-organizes → watch
+- **⚡ Fast** - Usenet maxes out your connection, GPU transcoding for smooth playback
+- **📦 Complete** - Everything you need in one Docker Compose file
 
 ## 🛠️ What's Included
 
