@@ -8,7 +8,7 @@ sonarr/
 radarr/
 prowlarr/
 jellyfin/
-homepage/
+homepage/logs/
 
 # Docker volumes
 *.db

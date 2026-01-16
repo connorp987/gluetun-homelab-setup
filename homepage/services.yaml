@@ -1,0 +1,34 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+# I have custom domains for each service, so if you don't have custom domains,
+# you can simply replace the url with the ip address of the server.
+# Example: https://192.168.50.30:8989 for sonarr
+- Media Management:
+    - Sonarr:
+        icon: sonarr.png
+        href: https://sonarr.<My Domain>.com
+        description: TV Show Management
+        
+    - Radarr:
+        icon: radarr.png
+        href: https://radarr.<My Domain>.com
+        description: Movie Management
+        
+    - Prowlarr:
+        icon: prowlarr.png
+        href: https://prowlarr.<My Domain>.com
+        description: Indexer Manager
+
+- Downloads:
+    - NZBGet:
+        icon: nzbget.png
+        href: https://nzbget.<My Domain>.com
+        description: Usenet Downloader
+
+- Media:
+    - Jellyfin:
+        icon: jellyfin.png
+        href: https://jellyfin.<My Domain>.com
+        description: Media Server
