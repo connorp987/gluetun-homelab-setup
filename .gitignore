@@ -1,0 +1,23 @@
+# Environment files with credentials
+.env
+
+# Runtime data directories (contain API keys, databases, personal data)
+gluetun/
+nzbget/
+sonarr/
+radarr/
+prowlarr/
+jellyfin/
+homepage/
+
+# Docker volumes
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
